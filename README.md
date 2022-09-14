@@ -1,4 +1,4 @@
-# manhattan-walked-streets-tracker
+# walked-streets-tracker
 This codebase hopes to convert raw Google Timeline data and determine which streets/avenues in Manhattan you have walked on.
 
 Getting the Google Timeline data [is trivial](https://takeout.google.com/settings/takeout). Then unselect all, and select only "Location History". You'll want the big `.json` file from this path. Seems as though Google doesn't make this easy to automate, so a constantly updating map may not be easy. Headless browser scraper would probably do the trick, though. 
